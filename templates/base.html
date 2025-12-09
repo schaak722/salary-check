@@ -10,14 +10,22 @@
   </head>
   <body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
-      <div class="container">
-        <a class="navbar-brand" href="{{ url_for('index') }}">Salary Benchmarks</a>
-        <div>
-          <a class="nav-link d-inline text-white" href="{{ url_for('job_titles_list') }}">Job Titles</a>
-          <a class="nav-link d-inline text-white" href="{{ url_for('salary_bands_list') }}">Salary Bands</a>
-        </div>
-      </div>
-    </nav>
+  <div class="container">
+    <a class="navbar-brand" href="{{ url_for('index') }}">Salary Benchmarks</a>
+    <div class="ms-auto d-flex align-items-center">
+      {% if session.get("user") %}
+        <span class="text-light me-3 small">
+          Logged in as {{ session.get("user") }}
+        </span>
+        <a class="nav-link d-inline text-white" href="{{ url_for('job_titles_list') }}">Job Titles</a>
+        <a class="nav-link d-inline text-white" href="{{ url_for('salary_bands_list') }}">Salary Bands</a>
+        <a class="nav-link d-inline text-white" href="{{ url_for('logout') }}">Logout</a>
+      {% else %}
+        <a class="nav-link d-inline text-white" href="{{ url_for('login') }}">Login</a>
+      {% endif %}
+    </div>
+  </div>
+</nav>
 
     <div class="container mb-5">
       {% with messages = get_flashed_messages(with_categories=true) %}
