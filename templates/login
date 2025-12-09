@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+      <div class="bg-white p-4 rounded shadow-sm">
+        <h1 class="h4 mb-3">Login</h1>
+
+        <form method="post">
+          <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input
+              type="text"
+              name="username"
+              class="form-control"
+              autocomplete="username"
+              required
+            >
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input
+              type="password"
+              name="password"
+              class="form-control"
+              autocomplete="current-password"
+              required
+            >
+          </div>
+
+          <button class="btn btn-primary w-100">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+{% endblock %}
