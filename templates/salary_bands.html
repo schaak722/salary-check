@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="bg-white p-4 rounded shadow-sm">
+    <h1 class="h4 mb-3">Job Titles</h1>
+
+    <form class="row g-2 mb-3" method="get">
+      <div class="col-auto">
+        <input type="text" name="q" class="form-control" placeholder="Search title..."
+               value="{{ search or '' }}">
+      </div>
+      <div class="col-auto">
+        <button class="btn btn-primary">Search</button>
+      </div>
+    </form>
+
+    <table class="table table-sm table-striped align-middle">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Category</th>
+          <th>Seniority</th>
+          <th>Salary bands</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for jt in job_titles %}
+          <tr>
+            <td>{{ jt.canonical_title }}</td>
+            <td>{{ jt.category }}</td>
+            <td>{{ jt.seniority_level }}</td>
+            <td>{{ jt.salary_bands|length }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}

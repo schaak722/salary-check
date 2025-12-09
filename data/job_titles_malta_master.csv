@@ -1,0 +1,237 @@
+canonical_title,category,seniority_level,aliases
+Receptionist,Admin & Office,Entry,Receptionist|Front Desk Receptionist|Front Office Receptionist|Front Desk Agent
+Office Administrator,Admin & Office,Mid,Office Administrator|Office Admin|Administrative Officer|Office Coordinator
+Administrative Assistant,Admin & Office,Entry,Administrative Assistant|Admin Assistant|Administration Assistant
+Office Assistant,Admin & Office,Entry,Office Assistant|Junior Office Assistant|Office Helper
+Personal Assistant,Admin & Office,Mid,Personal Assistant|PA|Executive Assistant|EA|Personal Secretary
+Secretary,Admin & Office,Mid,Secretary|Office Secretary|Company Secretary (Admin)
+Data Entry Clerk,Admin & Office,Entry,Data Entry Clerk|Data Input Clerk|Data Entry Operator
+Front Office Coordinator,Admin & Office,Mid,Front Office Coordinator|Front Office Clerk|Front Office Administrator
+Office Manager,Admin & Office,Manager,Office Manager|Administration Manager|Admin Manager
+Records Officer,Admin & Office,Entry,Records Officer|Records Clerk|Document Controller|Filing Clerk
+Office Clerk,Admin & Office,Entry,Office Clerk|Administration Clerk|Admin Clerk
+Client Relationship Officer,Customer Service & Call Centre,Mid,Client Relationship Officer|Client Relations Executive|Customer Relationship Officer
+Customer Care Assistant,Customer Service & Call Centre,Entry,Customer Care Assistant|Customer Service Assistant|Customer Support Assistant|Customer Care Officer
+Customer Service Representative,Customer Service & Call Centre,Entry,Customer Service Representative|Customer Care Representative|Customer Care Agent|Customer Support Agent|Customer Service Agent
+Call Centre Agent,Customer Service & Call Centre,Entry,Call Centre Agent|Call Center Agent|Contact Centre Agent|Call Centre Representative|Call Centre Operator
+Cashier,Retail,Entry,Cashier|Checkout Assistant|Till Operator|Cash Desk Assistant
+Accounts Clerk,Accounting & Finance,Entry,Accounts Clerk|Accounts Clerk (Payables)|Accounts Clerk (Receivables)|Accounts Clerk (General)
+Accounts Executive,Accounting & Finance,Mid,Accounts Executive|Accounting Executive|Accounts Executive (General)
+Accounts Officer,Accounting & Finance,Mid,Accounts Officer|Accounts Administrator|Accounts Officer (General)
+Accounts Assistant,Accounting & Finance,Entry,Accounts Assistant|Accounts Assistant (Finance)|Junior Accounts Assistant
+Junior Accountant,Accounting & Finance,Junior,Junior Accountant|Assistant Accountant|Trainee Accountant
+Accountant,Accounting & Finance,Mid,Accountant|General Accountant|Accounts Executive (Mid-Level)
+Senior Accountant,Accounting & Finance,Senior,Senior Accountant|Senior Accounts Executive|Senior Accounting Officer
+Accounts Payable Officer,Accounting & Finance,Junior,Accounts Payable Officer|AP Officer|Accounts Payable Clerk|AP Executive
+Accounts Receivable Officer,Accounting & Finance,Junior,Accounts Receivable Officer|AR Officer|Accounts Receivable Clerk|AR Executive
+Credit Controller,Accounting & Finance,Mid,Credit Controller|Credit Control Officer|Credit Collections Officer
+Payroll Officer,Accounting & Finance,Mid,Payroll Officer|Payroll Clerk|Payroll Executive|Payroll Administrator
+Finance Assistant,Accounting & Finance,Entry,Finance Assistant|Junior Finance Assistant|Finance Clerk
+Finance Executive,Accounting & Finance,Mid,Finance Executive|Finance Specialist
+Finance Officer,Accounting & Finance,Mid,Finance Officer|Finance Executive (Mid)|Finance Administrator
+Senior Finance Officer,Accounting & Finance,Senior,Senior Finance Officer|Senior Finance Executive|Senior Finance Specialist
+Cost Controller,Accounting & Finance,Mid,Cost Controller|Cost Control Officer|Cost Analyst
+Financial Controller,Accounting & Finance,Senior,Financial Controller|Company Financial Controller|Group Financial Controller
+Finance Manager,Accounting & Finance,Manager,Finance Manager|Finance Department Manager|Financial Manager
+Head of Finance,Accounting & Finance,Director,Head of Finance|Finance Director|Financial Director
+Investment Analyst,Accounting & Finance,Mid,Investment Analyst|Portfolio Analyst|Equity Analyst
+Financial Analyst,Accounting & Finance,Mid,Financial Analyst|Business Financial Analyst|Reporting Analyst
+Treasury Officer,Accounting & Finance,Mid,Treasury Officer|Treasury Analyst|Treasury Executive
+Risk Analyst,Accounting & Finance,Mid,Risk Analyst|Risk Officer|Credit Risk Analyst
+Risk Manager,Accounting & Finance,Senior,Risk Manager|Risk Management Manager|Senior Risk Officer
+Banking Officer,Banking & Finance,Mid,Banking Officer|Bank Officer|Branch Officer|Banking Executive
+Relationship Manager (Banking),Banking & Finance,Senior,Relationship Manager (Banking)|Corporate Relationship Manager|Business Relationship Manager
+Loan Officer,Banking & Finance,Mid,Loan Officer|Lending Officer|Credit Officer|Loans Executive
+Compliance Administrator,Compliance & Legal,Entry,Compliance Administrator|Compliance Admin|Compliance Clerk
+Compliance Officer,Compliance & Legal,Mid,Compliance Officer|Compliance Executive|Regulatory Compliance Officer
+Senior Compliance Officer,Compliance & Legal,Senior,Senior Compliance Officer|Senior Compliance Executive|Compliance Team Lead
+Head of Compliance,Compliance & Legal,Director,Head of Compliance|Compliance Manager|Compliance Lead|Head of Regulatory Compliance
+AML Officer,Compliance & Legal,Mid,AML Officer|Anti-Money Laundering Officer|AML Executive
+MLRO (Money Laundering Reporting Officer),Compliance & Legal,Senior,MLRO|Money Laundering Reporting Officer|Designated Officer
+KYC Analyst,Compliance & Legal,Junior,KYC Analyst|Know Your Customer Analyst|Onboarding Analyst|Customer Due Diligence Analyst
+Due Diligence Officer,Compliance & Legal,Mid,Due Diligence Officer|Due Diligence Analyst|CDD Officer|EDD Officer
+Regulatory Officer,Compliance & Legal,Mid,Regulatory Officer|Regulatory Compliance Officer|Regulatory Affairs Officer
+Risk & Compliance Manager,Compliance & Legal,Manager,Risk & Compliance Manager|Risk and Compliance Manager|Integrated Risk & Compliance Manager
+Corporate Services Officer,Compliance & Legal,Mid,Corporate Services Officer|Corporate Officer|Corporate Services Executive
+Corporate Administrator,Compliance & Legal,Entry,Corporate Administrator|Corporate Admin|Company Administrator
+Company Secretary,Compliance & Legal,Senior,Company Secretary|Corporate Secretary (Governance)|Co Sec
+Paralegal,Compliance & Legal,Junior,Paralegal|Legal Assistant|Legal Executive (Support)
+Legal Associate,Compliance & Legal,Junior,Legal Associate|Associate Lawyer|Junior Associate|Legal Executive (Law Firm)
+Lawyer / Legal Counsel,Compliance & Legal,Senior,Lawyer|Legal Counsel|Advocate|Legal Advisor|In-House Counsel
+Insurance Clerk,Insurance & Risk,Entry,Insurance Clerk|Insurance Administrator|Insurance Admin Assistant
+Insurance Officer,Insurance & Risk,Mid,Insurance Officer|Insurance Executive|Insurance Specialist
+Claims Handler,Insurance & Risk,Mid,Claims Handler|Claims Officer|Claims Executive|Claims Administrator
+Underwriter,Insurance & Risk,Mid,Underwriter|Insurance Underwriter|Junior Underwriter
+Senior Underwriter,Insurance & Risk,Senior,Senior Underwriter|Lead Underwriter
+Insurance Sales Representative,Insurance & Risk,Entry,Insurance Sales Representative|Insurance Sales Agent|Insurance Consultant
+Insurance Advisor,Insurance & Risk,Mid,Insurance Advisor|Financial Advisor (Insurance)|Protection Advisor
+Insurance Broker,Insurance & Risk,Senior,Insurance Broker|Broker (Insurance)|Senior Insurance Consultant
+Actuarial Analyst,Insurance & Risk,Mid,Actuarial Analyst|Actuarial Assistant
+HR Assistant,HR & Recruitment,Entry,HR Assistant|Human Resources Assistant|HR Admin Assistant
+HR Administrator,HR & Recruitment,Entry,HR Administrator|HR Admin|HR & Admin Assistant
+HR Officer,HR & Recruitment,Mid,HR Officer|Human Resources Officer
+HR Executive,HR & Recruitment,Mid,HR Executive|Human Resources Executive
+HR Generalist,HR & Recruitment,Mid,HR Generalist|HR All-Rounder
+HR Manager,HR & Recruitment,Manager,HR Manager|Human Resources Manager|HR Lead
+Talent Acquisition Specialist,HR & Recruitment,Mid,Talent Acquisition Specialist|Recruitment Specialist|Talent Acquisition Executive
+Recruitment Consultant,HR & Recruitment,Mid,Recruitment Consultant|Recruiter|Talent Acquisition Consultant
+Training & Development Officer,HR & Recruitment,Mid,Training & Development Officer|L&D Officer|Training Officer|Learning & Development Executive
+Payroll & HR Administrator,HR & Recruitment,Mid,Payroll & HR Administrator|HR & Payroll Administrator|HR & Payroll Officer
+IT Support Technician,IT & Infrastructure,Entry,IT Support Technician|IT Support Officer|Helpdesk Technician|IT Support Executive
+Service Desk Analyst,IT & Infrastructure,Entry,Service Desk Analyst|Helpdesk Analyst|IT Service Desk Agent
+Systems Administrator,IT & Infrastructure,Mid,Systems Administrator|System Administrator|IT Systems Administrator
+Network Administrator,IT & Infrastructure,Mid,Network Administrator|Network Engineer (Junior)|Network Support Engineer
+IT Administrator,IT & Infrastructure,Mid,IT Administrator|IT Admin|IT Systems Administrator (Generalist)
+IT Manager,IT & Infrastructure,Manager,IT Manager|IT Operations Manager|Head of IT
+IT Security Specialist,IT & Infrastructure,Senior,IT Security Specialist|Cybersecurity Specialist|Information Security Analyst
+Cloud Engineer,IT & Infrastructure,Mid,Cloud Engineer|Cloud Infrastructure Engineer|Cloud Operations Engineer
+Database Administrator (DBA),IT & Infrastructure,Mid,Database Administrator|DBA|SQL DBA|Database Engineer
+Software Developer,IT & Software Development,Mid,Software Developer|Software Engineer|Application Developer|Programmer
+.NET Developer,IT & Software Development,Mid,.NET Developer|C# Developer|.NET Software Engineer
+Java Developer,IT & Software Development,Mid,Java Developer|Java Software Engineer|Java Programmer
+Frontend Developer,IT & Software Development,Mid,Frontend Developer|Front-End Developer|UI Developer
+Backend Developer,IT & Software Development,Mid,Backend Developer|Back-End Developer|Server-Side Developer
+Full Stack Developer,IT & Software Development,Mid,Full Stack Developer|Full-Stack Developer|Full-Stack Engineer
+Mobile App Developer,IT & Software Development,Mid,Mobile App Developer|Mobile Developer|Android Developer|iOS Developer
+Web Developer,IT & Software Development,Mid,Web Developer|PHP Developer (Web)|Web Designer & Developer
+QA Tester / QA Engineer,IT & Software Development,Mid,QA Tester|QA Engineer|Software Tester|Quality Assurance Engineer|Test Analyst
+IT Business Analyst,IT & Software Development,Mid,IT Business Analyst|Business Analyst (IT)|Technical Business Analyst
+Project Manager (IT),IT & Software Development,Manager,Project Manager (IT)|IT Project Manager|Technical Project Manager
+Product Owner,IT & Software Development,Mid,Product Owner|PO|Agile Product Owner|Product Manager (Agile)
+Data Analyst,Data & BI,Mid,Data Analyst|Reporting Analyst|Business Data Analyst
+Business Intelligence Developer,Data & BI,Mid,Business Intelligence Developer|BI Developer|Reporting Developer
+Data Engineer,Data & BI,Mid,Data Engineer|Data Pipeline Engineer|ETL Engineer|Big Data Engineer
+Business Analyst,Business & Data,Mid,Business Analyst|Business Process Analyst|Operations Analyst
+Cabin Crew,Aviation & Airlines,Entry,Cabin Crew|Flight Attendant|Air Hostess|Air Steward|Air Stewardess
+Ground Handling Agent,Aviation & Airlines,Entry,Ground Handling Agent|Ground Handling Operator|Ramp Agent|Baggage Handler
+Airport Customer Service Agent,Aviation & Airlines,Entry,Airport Customer Service Agent|Check-in Agent|Check-in Clerk|Passenger Service Agent
+Flight Dispatcher,Aviation & Airlines,Mid,Flight Dispatcher|Operations Controller (Aviation)|Flight Operations Officer
+Airline Operations Officer,Aviation & Airlines,Mid,Airline Operations Officer|Airline Operations Executive|Ops Officer (Airline)
+Aircraft Maintenance Technician,Aviation & Airlines,Mid,Aircraft Maintenance Technician|Aircraft Mechanic|Aircraft Engineer (Licensed)
+Commercial Pilot,Aviation & Airlines,Senior,Commercial Pilot|Airline Pilot|Captain|First Officer
+Customer Support Agent (iGaming),iGaming,Entry,Customer Support Agent (iGaming)|iGaming Support Agent|Customer Support Executive (Gaming)
+Payments & Fraud Analyst,iGaming,Mid,Payments & Fraud Analyst|Fraud Analyst|Payments Risk Analyst|Transaction Monitoring Analyst
+Responsible Gaming Specialist,iGaming,Mid,Responsible Gaming Specialist|Responsible Gambling Officer|Player Protection Specialist|RG Specialist
+Casino Operations Executive,iGaming,Mid,Casino Operations Executive|Casino Executive|Casino Coordinator|Online Casino Operations Officer
+Sportsbook Trader,iGaming,Mid,Sportsbook Trader|Risk Trader|Sports Betting Trader|Sportsbook Risk Analyst
+VIP Account Manager,iGaming,Senior,VIP Account Manager|VIP Manager|VIP Host|VIP Executive
+CRM Executive (iGaming),iGaming,Mid,CRM Executive (iGaming)|CRM Specialist (Gaming)|Campaign Executive (CRM)
+Game Presenter / Live Casino Dealer,iGaming,Entry,Game Presenter|Live Casino Dealer|Live Dealer|Casino Game Presenter|Live Casino Host
+Sales Representative,Sales & Business Development,Entry,Sales Representative|Sales Rep|Sales Representatives|Sales Person|Sales Persons|Field Sales Representative
+Sales Executive,Sales & Business Development,Mid,Sales Executive|Sales Consultant|Sales Officer
+Business Development Executive,Sales & Business Development,Mid,Business Development Executive|BD Executive|Business Development Representative
+Business Development Manager,Sales & Business Development,Manager,Business Development Manager|BD Manager|Head of Business Development
+Sales Coordinator,Sales & Business Development,Mid,Sales Coordinator|Sales Support Coordinator|Sales Support Executive
+Sales Administrator,Sales & Business Development,Entry,Sales Administrator|Sales Admin|Sales & Admin Assistant
+Key Account Manager,Sales & Business Development,Senior,Key Account Manager|KAM|Account Manager (Key Accounts)
+Sales Manager,Sales & Business Development,Manager,Sales Manager|Sales Team Leader|Head of Sales
+Telesales Executive,Sales & Business Development,Entry,Telesales Executive|Telemarketing Executive|Inside Sales Executive
+Promoter,Sales & Marketing,Entry,Promoter|Brand Promoter|In-store Promoter|Sampling Promoter
+Merchandiser,Retail & FMCG,Entry,Merchandiser|Visual Merchandiser|Retail Merchandiser
+Marketing Assistant,Marketing & Communications,Entry,Marketing Assistant|Marketing Admin|Junior Marketing Executive
+Marketing Executive,Marketing & Communications,Mid,Marketing Executive|Marketing Officer|Marketing Coordinator
+Digital Marketing Specialist,Marketing & Communications,Mid,Digital Marketing Specialist|Online Marketing Specialist|Digital Marketer
+Performance Marketing Specialist,Marketing & Communications,Mid,Performance Marketing Specialist|PPC Specialist|Paid Media Specialist
+Social Media Executive,Marketing & Communications,Mid,Social Media Executive|Social Media Specialist|Social Media Officer
+Content Writer / Copywriter,Marketing & Communications,Mid,Content Writer|Copywriter|Content Creator|Content Specialist
+Brand Manager,Marketing & Communications,Senior,Brand Manager|Product & Brand Manager|Brand Marketing Manager
+Marketing Manager,Marketing & Communications,Manager,Marketing Manager|Head of Marketing|Marketing Lead
+Graphic Designer,Marketing & Design,Mid,Graphic Designer|Junior Graphic Designer|Digital Designer
+Waiter,Hospitality & Tourism,Entry,Waiter|Waitress|Waiter / Waitress|Food & Beverage Server|Food & Beverage Attendant|F&B Attendant
+Bartender,Hospitality & Tourism,Entry,Bartender|Barman|Bar Staff|Mixologist
+Barista,Hospitality & Tourism,Entry,Barista|Coffee Barista|Café Server
+Chef de Partie,Hospitality & Tourism,Mid,Chef de Partie|Line Chef|Station Chef
+Commis Chef,Hospitality & Tourism,Entry,Commis Chef|Junior Chef|Kitchen Assistant
+Head Chef,Hospitality & Tourism,Manager,Head Chef|Executive Chef|Kitchen Manager
+Restaurant Supervisor,Hospitality & Tourism,Mid,Restaurant Supervisor|F&B Supervisor|Restaurant Team Leader
+Assistant Restaurant Manager,Hospitality & Tourism,Manager,Assistant Restaurant Manager|Assistant F&B Manager
+Restaurant Manager,Hospitality & Tourism,Manager,Restaurant Manager|F&B Manager|Outlet Manager
+Hotel Receptionist,Hospitality & Tourism,Entry,Hotel Receptionist|Front Desk Agent (Hotel)|Hotel Front Office Clerk
+Reservations Agent,Hospitality & Tourism,Entry,Reservations Agent|Reservations Clerk|Reservationist
+Night Receptionist,Hospitality & Tourism,Entry,Night Receptionist|Night Front Desk Agent|Night Front Office Clerk
+Night Auditor,Hospitality & Tourism,Mid,Night Auditor|Night Audit Clerk|Night Audit Officer
+Guest Relations Officer,Hospitality & Tourism,Mid,Guest Relations Officer|Guest Relations Executive|Guest Services Officer
+Housekeeping Attendant,Hospitality & Tourism,Entry,Housekeeping Attendant|Room Attendant|Cleaner (Hotel)
+Housekeeper,Hospitality & Tourism,Entry,Housekeeper|Senior Housekeeper|Housekeeping Maid
+Housekeeping Supervisor,Hospitality & Tourism,Mid,Housekeeping Supervisor|Housekeeping Team Leader|Floor Supervisor
+Front Office Manager,Hospitality & Tourism,Manager,Front Office Manager|Front Desk Manager|Front Office Leader (Hotel)
+Spa Therapist,Hospitality & Tourism,Mid,Spa Therapist|Beauty Therapist|Massage Therapist
+Pizzaiolo,Hospitality & Tourism,Mid,Pizzaiolo|Pizza Chef|Pizza Cook
+Shop Assistant,Retail,Entry,Shop Assistant|Sales Assistant|Sales Assistants|Retail Sales Assistant|Retail Sales Assistants
+Store Manager,Retail,Manager,Store Manager|Retail Manager|Shop Manager
+Warehouse Worker,Logistics & Warehousing,Entry,Warehouse Worker|Warehouse Operative|Warehouse Assistant
+Warehouse Supervisor,Logistics & Warehousing,Mid,Warehouse Supervisor|Warehouse Team Leader|Warehouse Coordinator
+Storekeeper,Logistics & Warehousing,Mid,Storekeeper|Store Keeper|Assistant Storekeeper
+Stacker,Logistics & Warehousing,Entry,Stacker|Warehouse Stacker|Stores Stacker
+Logistics Coordinator,Logistics & Warehousing,Mid,Logistics Coordinator|Logistics Officer|Distribution Coordinator
+Delivery Driver,Logistics & Transport,Entry,Delivery Driver|Delivery Person|Delivery Persons|Delivery Personnel|Courier
+Driver,Logistics & Transport,Entry,Driver|Drivers|Company Driver|Personal Driver
+Forklift Driver,Logistics & Warehousing,Entry,Forklift Driver|Forklift Operator|Forklift Truck Driver
+Machine Operator,Manufacturing & Production,Entry,Machine Operator|Plant Operator|Production Machine Operator
+Production Operator,Manufacturing & Production,Entry,Production Operator|Production Line Operator|Factory Worker
+Maintenance Technician,Maintenance & Trades,Mid,Maintenance Technician|Maintenance Officer|Maintenance Engineer (Junior)|Maintenance Person
+Electrician,Maintenance & Trades,Mid,Electrician|Electrical Technician|Electrical Installer
+Plumber,Maintenance & Trades,Mid,Plumber|Plumbing Technician|Plumbing Installer
+Carpenter,Maintenance & Trades,Mid,Carpenter|Joiner|Woodworker
+Technician,Maintenance & Trades,Entry,Technician|General Technician|Service Technician
+Mechanical Technician,Maintenance & Trades,Mid,Mechanical Technician|Mechanical Fitter|Mechanical Maintenance Technician
+Tradesperson,Maintenance & Trades,Mid,Tradesperson|Skilled Labourer|Welder|Mechanic (Automotive)|Panel Beater
+Purchasing Officer,Procurement & Supply Chain,Mid,Purchasing Officer|Procurement Officer|Buying Officer
+Draughtsperson,Construction & Engineering,Mid,Draughtsperson|Draftsman|CAD Drafter
+Architect,Construction & Engineering,Senior,Architect|Perit|Project Architect
+Civil Engineer,Construction & Engineering,Mid,Civil Engineer|Site Engineer (Civil)|Structural Engineer (Civil)
+Structural Engineer,Construction & Engineering,Mid,Structural Engineer|Structural Design Engineer
+Mechanical & Electrical Engineer,Construction & Engineering,Mid,M&E Engineer|Mechanical & Electrical Engineer|Building Services Engineer
+Quantity Surveyor,Construction & Engineering,Mid,Quantity Surveyor|QS|Cost Engineer (Construction)
+Site Engineer,Construction & Engineering,Mid,Site Engineer|Resident Site Engineer
+Site Supervisor,Construction & Engineering,Mid,Site Supervisor|Site Foreman|Construction Supervisor|Works Supervisor
+Construction Project Manager,Construction & Engineering,Manager,Construction Project Manager|Project Manager (Construction)|Site Project Manager
+Health & Safety Officer,Construction & Engineering,Mid,Health & Safety Officer|H&S Officer|Health & Safety Coordinator|Safety Officer (Construction)
+Land Surveyor,Construction & Engineering,Mid,Land Surveyor|Surveyor (Land)|Geomatics Surveyor
+Quality Assurance Officer,Quality & Regulatory,Mid,Quality Assurance Officer|QA Officer|QA Specialist (Operations)
+Quality Control Inspector,Quality & Regulatory,Entry,Quality Control Inspector|QC Inspector|Quality Inspector
+Quality Technician,Quality & Regulatory,Entry,Quality Technician|QC Technician|QA Technician
+Quality Manager,Quality & Regulatory,Manager,Quality Manager|QA Manager|Quality Systems Manager
+Validation Officer,Quality & Regulatory,Mid,Validation Officer|Validation Specialist|Process Validation Officer
+Regulatory Affairs Officer,Quality & Regulatory,Mid,Regulatory Affairs Officer|Regulatory Affairs Executive|Regulatory Specialist
+Shipping Clerk,Shipping & Maritime,Entry,Shipping Clerk|Shipping Administrator|Shipping Admin Clerk
+Shipping Coordinator,Shipping & Maritime,Mid,Shipping Coordinator|Shipping Executive|Shipping Officer
+Freight Forwarder,Shipping & Maritime,Mid,Freight Forwarder|Freight Forwarding Executive|Sea & Air Freight Coordinator
+Import / Export Clerk,Shipping & Maritime,Entry,Import / Export Clerk|Import Clerk|Export Clerk|Import/Export Administrator
+Customs Clerk,Shipping & Maritime,Entry,Customs Clerk|Customs Administrator|Customs Clearance Clerk
+Port Operations Officer,Shipping & Maritime,Mid,Port Operations Officer|Port Operations Executive|Port Operations Coordinator
+Marine Engineer,Shipping & Maritime,Senior,Marine Engineer|Ship Engineer|Engineering Officer (Marine)
+Vessel Operator,Shipping & Maritime,Mid,Vessel Operator|Ship Operator|Fleet Operator
+Seafarer / Deckhand,Shipping & Maritime,Entry,Seafarer|Deckhand|Able Seaman|Ordinary Seaman
+HSE Officer,Oil & Gas / Energy,Mid,"HSE Officer|Health, Safety & Environment Officer|HSE Coordinator|HSE Advisor"
+Process Engineer,Oil & Gas / Energy,Mid,Process Engineer|Process Engineer (Oil & Gas)|Process Engineer (Energy)
+Petroleum Engineer,Oil & Gas / Energy,Senior,Petroleum Engineer|Oil & Gas Engineer
+Drilling Engineer,Oil & Gas / Energy,Senior,Drilling Engineer|Well Engineer
+Production Operator (Oil & Gas),Oil & Gas / Energy,Entry,Production Operator (Oil & Gas)|Plant Operator (Oil & Gas)|Field Operator (Oil & Gas)
+Terminal Operator,Oil & Gas / Energy,Entry,Terminal Operator|Fuel Terminal Operator|Storage Terminal Operator
+Bunkering Operator,Oil & Gas / Energy,Entry,Bunkering Operator|Bunkering Technician|Bunkering Executive
+Draughtsperson,Construction & Engineering,Mid,Draughtsperson|Draftsman|CAD Drafter
+Clerk (Government),Public Sector,Entry,Clerk (Government)|Government Clerk|Administrative Clerk (Public Service)
+Assistant Manager (Public Service),Public Sector,Mid,Assistant Manager (Public Service)|Assistant Manager (Gov Scale)
+Manager (Public Service),Public Sector,Manager,Manager (Public Service)|Manager I|Manager II|Department Manager (Government)
+Senior Manager (Public Service),Public Sector,Director,Senior Manager (Public Service)|Senior Department Manager
+Teacher,Education,Mid,Teacher|Educator|Secondary School Teacher|Primary Teacher
+Learning Support Educator (LSE),Education,Entry,Learning Support Educator|LSE|Classroom Support Educator|Support Teacher
+Nurse,Healthcare & Social Care,Mid,Nurse|Staff Nurse|Registered Nurse
+Care Worker,Healthcare & Social Care,Entry,Care Worker|Support Worker|Care Assistant|Carer
+Pharmacist,Healthcare & Social Care,Senior,Pharmacist|Community Pharmacist|Hospital Pharmacist
+Lab Technician,Healthcare & Social Care,Mid,Lab Technician|Laboratory Technician|Medical Laboratory Technician
+Social Worker,Healthcare & Social Care,Mid,Social Worker|Social Work Officer|Community Social Worker
+Security Officer,Security & Protection,Entry,Security Officer|Security Guard|Security Person|Security Staff
+Operations Manager,Management & Leadership,Manager,Operations Manager|Ops Manager|Operations Lead
+General Manager,Management & Leadership,Director,General Manager|GM|Branch Manager|Country Manager (SME)
+Managing Director,Management & Leadership,Director,Managing Director|MD|Executive Director
+Chief Executive Officer,Management & Leadership,C-Level,Chief Executive Officer|CEO|Chief Executive
+Chief Technology Officer,Management & Leadership,C-Level,Chief Technology Officer|CTO|Head of Technology|Technology Director
+Chief Financial Officer,Management & Leadership,C-Level,Chief Financial Officer|CFO|Head of Finance (C-Level)|Finance Director (C-Level)
+Chief Operating Officer,Management & Leadership,C-Level,Chief Operating Officer|COO|Operations Director (C-Level)
+Chief Marketing Officer,Management & Leadership,C-Level,Chief Marketing Officer|CMO|Marketing Director (C-Level)
+Chief Information Officer,Management & Leadership,C-Level,Chief Information Officer|CIO|IT Director (C-Level)
+Chief Information Security Officer,Management & Leadership,C-Level,Chief Information Security Officer|CISO|Head of Information Security
+Chief Risk Officer,Management & Leadership,C-Level,Chief Risk Officer|CRO|Head of Risk (C-Level)
+Chief Human Resources Officer,Management & Leadership,C-Level,Chief Human Resources Officer|CHRO|HR Director (C-Level)|People & Culture Director

@@ -1,0 +1,7 @@
+﻿experience_band_code,label,min_years,max_years,default_seniority_level,description
+TRN,Trainee / Intern,0,0,Entry,No prior experience; internships, student or trainee roles.
+JNR,Junior / Entry,0,2,Junior,Early career roles, usually up to 2 years' experience in the field.
+MID,Mid-Level,3,5,Mid,Comfortably experienced, works independently on most tasks (approx. 3–5 years).
+SNR,Senior,6,9,Senior,Deep experience, handles complex work, often mentoring others (approx. 6–9 years).
+LDR,Lead / Expert / Head,10,,Senior,Very experienced; lead, head-of, principal or expert roles (10+ years).
+

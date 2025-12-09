@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="bg-white p-4 rounded shadow-sm">
+    <h1 class="h4 mb-3">Add Salary Band</h1>
+
+    <form method="post">
+      <div class="mb-3">
+        <label class="form-label">Job title *</label>
+        <select name="job_title_id" class="form-select" required>
+          <option value="">Select...</option>
+          {% for jt in job_titles %}
+            <option value="{{ jt.id }}">{{ jt.canonical_title }} ({{ jt.category }})</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Experience band *</label>
+        <select name="experience_band_code" class="form-select" required>
+          <option value="">Select...</option>
+          {% for eb in experience_bands %}
+            <option value="{{ eb.code }}">{{ eb.label }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="row">
+        <div class="mb-3 col-md-4">
+          <label class="form-label">Location</label>
+          <input name="location" class="form-control" value="Malta">
+        </div>
+        <div class="mb-3 col-md-4">
+          <label class="form-label">Industry</label>
+          <input name="industry" class="form-control">
+        </div>
+        <div class="mb-3 col-md-4">
+          <label class="form-label">Company size band</label>
+          <select name="company_size_band" class="form-select">
+            <option value="">(optional)</option>
+            <option value="1-10">1–10</option>
+            <option value="11-50">11–50</option>
+            <option value="51-200">51–200</option>
+            <option value="200+">200+</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="mb-3 col-md-3">
+          <label class="form-label">Currency</label>
+          <input name="currency" class="form-control" value="EUR">
+        </div>
+        <div class="mb-3 col-md-3">
+          <label class="form-label">Min salary</label>
+          <input name="salary_min" type="number" step="0.01" class="form-control">
+        </div>
+        <div class="mb-3 col-md-3">
+          <label class="form-label">Max salary</label>
+          <input name="salary_max" type="number" step="0.01" class="form-control">
+        </div>
+        <div class="mb-3 col-md-3">
+          <label class="form-label">Avg salary</label>
+          <input name="salary_avg" type="number" step="0.01" class="form-control">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="mb-3 col-md-3">
+          <label class="form-label">Sample size</label>
+          <input name="sample_size" type="number" class="form-control">
+        </div>
+        <div class="mb-3 col-md-4">
+          <label class="form-label">Source type</label>
+          <input name="source_type" class="form-control" placeholder="Employer-reported, Market survey, ...">
+        </div>
+        <div class="mb-3 col-md-3">
+          <label class="form-label">Confidence level</label>
+          <select name="confidence_level" class="form-select">
+            <option value="">(optional)</option>
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Notes</label>
+        <textarea name="notes" class="form-control" rows="3"></textarea>
+      </div>
+
+      <button class="btn btn-primary">Save</button>
+      <a href="{{ url_for('salary_bands_list') }}" class="btn btn-secondary">Cancel</a>
+    </form>
+  </div>
+{% endblock %}
