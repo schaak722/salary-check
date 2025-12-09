@@ -23,7 +23,7 @@ app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", "dev-secret")
 
 # Basic auth config (change these in env vars for real use)
 app.config["ADMIN_USERNAME"] = os.environ.get("ADMIN_USERNAME", "admin")
-app.config["ADMIN_PASSWORD"] = os.environ.get("ADMIN_PASSWORD", "admin")
+app.config["ADMIN_PASSWORD"] = os.environ.get("ADMIN_PASSWORD", "Salary26?")
 
 # Example: postgres://user:pass@host:port/dbname
 database_url = os.environ.get("DATABASE_URL", "sqlite:///salary_db.sqlite3")
@@ -201,12 +201,48 @@ def seed_job_titles():
 # Routes
 # -------------------------------------------------
 
+def login_required(view_func):
+    @wraps(view_func)
+    def wrapped_view(*args, **kwargs):
+        if not session.get("user"):
+            return redirect(url_for("login", next=request.path))
+        return view_func(*args, **kwargs)
+    return wrapped_view
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if request.method == "POST":
+        username = (request.form.get("username") or "").strip()
+        password = (request.form.get("password") or "").strip()
+
+        if (
+            username == app.config["ADMIN_USERNAME"]
+            and password == app.config["ADMIN_PASSWORD"]
+        ):
+            session["user"] = username
+            flash("Logged in successfully.", "success")
+            next_url = request.args.get("next") or url_for("index")
+            return redirect(next_url)
+        else:
+            flash("Invalid username or password.", "danger")
+
+    return render_template("login.html")
+
+
+@app.route("/logout")
+def logout():
+    session.pop("user", None)
+    flash("Logged out.", "success")
+    return redirect(url_for("login"))
+
+
 @app.route("/")
+@login_required
 def index():
     return render_template("index.html")
 
 
 @app.route("/job-titles")
+@login_required
 def job_titles_list():
     search = request.args.get("q", "").strip()
     query = JobTitle.query
@@ -220,6 +256,7 @@ def job_titles_list():
 
 
 @app.route("/salary-bands")
+@login_required
 def salary_bands_list():
     job_title_id = request.args.get("job_title_id")
     experience_code = request.args.get("experience_band_code")
@@ -247,6 +284,7 @@ def salary_bands_list():
 
 
 @app.route("/salary-bands/new", methods=["GET", "POST"])
+@login_required
 def salary_band_new():
     job_titles = JobTitle.query.order_by(JobTitle.canonical_title).all()
     experience_bands = ExperienceBand.query.order_by(ExperienceBand.min_years).all()
