@@ -21,6 +21,10 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", "dev-secret")
 
+# Basic auth config (change these in env vars for real use)
+app.config["ADMIN_USERNAME"] = os.environ.get("ADMIN_USERNAME", "admin")
+app.config["ADMIN_PASSWORD"] = os.environ.get("ADMIN_PASSWORD", "admin")
+
 # Example: postgres://user:pass@host:port/dbname
 database_url = os.environ.get("DATABASE_URL", "sqlite:///salary_db.sqlite3")
 app.config["SQLALCHEMY_DATABASE_URI"] = database_url
